@@ -1,0 +1,54 @@
+body{background-color:brown;
+color:cornsilk;}
+h1{
+    text-align:center;
+    font-size:larger;
+    letter-spacing:medium;
+}
+h2{
+    text-align:center;
+    font-size:medium;
+    font-weight:200;
+    margin-bottom:auto;
+}
+button{
+    background-color:goldenrod;
+    color:whitesmoke;
+    border:none;
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+    width:250px;
+    margin:5px;
+
+}
+input{
+    background-color:white;
+    color:black;
+    border:0ch;
+    padding:0cqb;
+    margin:0cqb;
+    width:250px;
+}
+label{
+    display:block;
+    margin-bottom:8px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.supply-card{
+    padding:15px;
+    margin:10px;
+    border:1px solid white;
+}
+h3{
+    text-align:center;
+    font-size:24px;
+}
+.item-name{
+    font-size:20px;
+    margin-bottom:10px;
+}
