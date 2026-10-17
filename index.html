@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restocker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>RESTOCKER</h1>
+        <h2>Never run out of essantials again</h2>
+        <br>
+        <button type="button" id="add-item">+Add item</button>
+        <form id="add-form">
+            <label for="Item-name">enter item name:</label>
+            <input type="text" id="Item-name" name="Item name">
+            <label for="Last-purchased">enter last date of purchase:</label>
+            <input type="date" id="Last-purchased" name="Last purchased">
+            <label for="Usually-lasts">Estimate how long does this product lasts</label>
+            <input type="number" id="Usually-lasts" name="Usually lasts">
+            <label for="Reminds-me-before">When should i notify you to restock</label>
+            <input type="number" id="Reminds-me-before" name="Reminds me before">
+            <br>
+            <br>
+            <button type="submit">submit form</button>
+           
+        </form>
+        <h3>Your supplies</h3>
+        <div>
+            <div class="supply-card">
+                <p class="item-name">SHAMPOO</p>
+                <div>Last purchased:</div>
+                <div>Usually lasts:</div>
+                <div>Remind me:</div>
+                <div>Status:</div>
+                <div><button>Edit</button></div>
+                <div><button>Delete</button></div>
+
+            </div>
+            <div class="supply-card">
+                <p class="item-name">PAD</p>
+                <div>Last purchased:</div>
+                <div>Usually lasts:</div>
+                <div>Remind me:</div>
+                <div>Status:</div>
+                <div><button>Edit</button></div>
+                <div><button>Delete</button></div>
+
+
+            </div>
+            <div class="supply-card">
+                <p class="item-name">SUNSCREEN</p>
+                <div>Last purchased:</div>
+                <div>Usually lasts:</div>
+                <div>Remind me:</div>
+                <div>Status:</div>
+                <div><button>Edit</button></div>
+                <div><button>Delete</button></div>
+            </div>
+            
+        </div>
+    
+
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
+
